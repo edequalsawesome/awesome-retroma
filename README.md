@@ -1,3 +1,27 @@
+# Awesome Retroma
+
+Personal fork of [Retroma](https://github.com/emarpiee/Retroma) by emarpiee, with workspace primary and secondary outlines set to **None** by default. All other outline styles remain selectable.
+
+## Install with BRAT
+
+In Obsidian, run BRAT’s **Add a beta theme for testing** command and enter:
+
+```text
+edequalsawesome/awesome-retroma
+```
+
+Select **Awesome Retroma** in Settings → Appearance if it is not selected automatically. BRAT tracks updates from this repository. Existing saved Style Settings values can override the theme defaults.
+
+## Keep upstream fixes
+
+This repository remains a GitHub fork of Retroma. The default `awesome-retroma` branch contains our customizations; upstream `main` is kept separate. Bring upstream fixes into a feature branch based on `awesome-retroma`, review the changes, then merge them into `awesome-retroma`. Do not overwrite the customized branch with GitHub’s fork sync action.
+
+For this checkout, `origin` points to upstream Retroma and `fork` points to this fork. Fetch `origin` and merge `origin/main` into an update branch when you want upstream fixes. Upstream changes are deliberately reviewed rather than applied automatically.
+
+Original authorship, license, funding links, and documentation are preserved below.
+
+---
+
 
 # Retroma Theme
 
