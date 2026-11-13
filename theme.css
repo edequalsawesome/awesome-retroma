@@ -246,8 +246,8 @@ body {
 
 	--rtm-workspace-primary-border-width: 4px;
 	--rtm-workspace-secondary-border-width: 4px;
-	--rtm-workspace-primary-border-style: groove;
-	--rtm-workspace-secondary-border-style: ridge;
+	--rtm-workspace-primary-border-style: none;
+	--rtm-workspace-secondary-border-style: none;
 	--rtm-workspace-primary-border: var(--rtm-workspace-primary-border-width) var(--rtm-workspace-primary-border-style) var(--rtm-workspace-primary-border-color);
 	--rtm-workspace-secondary-border: var(--rtm-workspace-secondary-border-width) var(--rtm-workspace-secondary-border-style) var(--rtm-workspace-secondary-border-color);
 	--rtm-workspace-primary-border-color: oklch(from var(--rtm-workspace-root-bg) var(--rtm-l-primary-border) c h);
@@ -13012,7 +13012,7 @@ settings:
         title: Workspace primary-outline style
         description: "Outline style for outer workspace pane and pane header.."
         type: variable-select
-        default: groove
+        default: none
         options:
             - groove
             - ridge
@@ -13020,14 +13020,14 @@ settings:
             - dotted
             - solid
             -
-            	label: none
-            	value: unset
+                label: none
+                value: none
     -
         id: rtm-workspace-secondary-border-style
         title: Workspace secondary-outline style
         description: "Outline style for inner-pane, modals, and popups."
         type: variable-select
-        default: ridge
+        default: none
         options:
             - groove
             - ridge
@@ -13035,8 +13035,8 @@ settings:
             - dotted
             - solid
             -
-            	label: none
-            	value: unset
+                label: none
+                value: none
     -
         id: rtm-workspace-primary-border-width
         title: Workspace primary-outline thickness
