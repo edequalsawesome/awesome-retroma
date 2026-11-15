@@ -281,7 +281,7 @@ body {
 	--rtm-metadata-radius: var(--rtm-interface-radius);
 	--rtm-metadata-border: var(--rtm-metadata-border-width) var(--rtm-metadata-border-style) var(--rtm-metadata-border-color);
 	--rtm-metadata-border-width: 4px;
-	--rtm-metadata-border-style: ridge;
+	--rtm-metadata-border-style: none;
 	--rtm-metadata-border-color: oklch(from var(--rtm-bg-primary) var(--rtm-l-secondary-border) c h);
 	--rtm-metadata-bg: var(--rtm-bg-secondary);
 	--rtm-metadata-padding: 12px;
@@ -15794,7 +15794,7 @@ settings:
         id: rtm-metadata-border-style
         title: Container outline style
         type: variable-select
-        default: ridge
+        default: none
         options:
             - groove
             - ridge
@@ -15802,8 +15802,8 @@ settings:
             - dotted
             - solid
             -
-            	label: none
-            	value: unset
+                label: none
+                value: none
     -
         id: rtm-metadata-border-width
         title: Container outline thickness
